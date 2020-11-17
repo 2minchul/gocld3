@@ -1,7 +1,8 @@
 #include <string>
+#include "cld3.h"
 #include "base.h"
 #include "nnet_language_identifier.h"
-#include "cld3.h"
+
 
 using chrome_lang_id::NNetLanguageIdentifier;
 

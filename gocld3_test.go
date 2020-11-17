@@ -1,4 +1,4 @@
-package cld3
+package gocld3
 
 import (
 	"fmt"

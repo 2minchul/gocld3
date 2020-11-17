@@ -1,3 +1,7 @@
+#ifndef CLD3_CLD3_H
+#define CLD3_CLD3_H
+
+
 #include <stdbool.h>
 #include <stdlib.h>
 
@@ -26,3 +30,4 @@ extern "C" {
 }
 #endif
 
+#endif //CLD3_CLD3_H

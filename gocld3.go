@@ -3,9 +3,9 @@
 // Package cld3 implements language detection using the Compact Language Detector v3.
 //
 // This packages includes the relevant sources from the CLD3 project, so it doesn't require any external dependencies. For more information on CLD3, see https://github.com/google/cld3/ .
-package cld3
+package gocld3
 
-// #cgo CXXFLAGS: -std=c++03
+// #cgo CXXFLAGS: -std=c++11 -Wno-undefined-var-template
 // #cgo pkg-config: protobuf
 // #include <stdlib.h>
 // #include "cld3.h"
